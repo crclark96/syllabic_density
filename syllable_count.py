@@ -26,7 +26,7 @@ if __name__ == '__main__':
     density.sort(cmp=lambda x,y: cmp(y[1],x[1]))
         
     for entry in density:
-        o.write(str(entry[0]) + ', ' + str(entry[1]/float(len(entry[0]))) + '\r\n')
+        o.write(entry[0] + ', ' + str(entry[1]) + '\r\n')
 
     
 
